@@ -4,7 +4,7 @@ public class pattern {
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= 5; j++) {
                 count++;
-                System.out.format("%02d ", count);
+                System.out.format("%02d ", j);
             }
             System.out.println(" ");
         }

@@ -12,12 +12,19 @@ public class perfectSquare {
         int j = 1;
         for (int i = n1; i <= n2; i++) {
             // 1 1<=20 i=1 j=1 1<=1 1*1=1 1 2 2<=20 2*2 4 <=2
-            while (j * j <= i) {
+            // using for loop
+            for (j = 1; j * j <= i; j++) {
                 if (j * j == i) {
                     System.out.println(i);
                 }
-                j++;
             }
+            // using while loop
+            // while (j * j <= i) {
+            // if (j * j == i) {
+            // System.out.println(i);
+            // }
+            // j++;
+            // }
         }
 
         sc.close();

@@ -28,7 +28,6 @@ class compileTime {
 public class compileVsRuntime {
     public static void main(String[] args) {
         compileTime t = new compileTime();
-
         System.out.println("Int max " + t.max(10, 20));
         System.out.println("float max " + t.max(10.2f, 20.2f));
         System.out.println("Int max 3params " + t.max(10, 20, 40));

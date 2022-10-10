@@ -2,6 +2,7 @@ import java.util.*;
 
 public class digitNumber {
     public static void main(String[] args) {
+
         int n, t, count = 0;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number:");

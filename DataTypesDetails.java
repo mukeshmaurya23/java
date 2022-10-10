@@ -8,9 +8,9 @@ public class DataTypesDetails {
         // for (char c = 0x0900; c <= 0x0970; c++) {
         // System.out.println(c + "");
         // }
-
     }
 }
+
 /*
  * int x=3
  * 8421
